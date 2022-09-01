@@ -10,7 +10,7 @@ import Skills from '../Skills';
  */
 const Ruseme = () => {
   return (
-    <div class="min-h-screen bg-white max-w-md mx-auto rounded shadow-md overflow-hidden md:max-w-4xl">
+    <div className="min-h-screen bg-white max-w-md mx-auto rounded shadow-md overflow-hidden md:max-w-4xl">
       <Profile />
       <Education />
       <WorkExperience />
