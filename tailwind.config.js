@@ -8,6 +8,9 @@ module.exports = {
       colors: {
         'green-dark': '#647b71',
       },
+      screens: {
+        'print': { 'raw': 'print' },
+      },
     },
   },
   plugins: [],

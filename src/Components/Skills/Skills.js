@@ -53,8 +53,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="w-full p-6 md:p-12 bg-green-dark text-white">
-      <p className="text-3xl">Skills</p>
+    <div className="w-full p-6 md:p-12 bg-green-dark text-white print:bg-white print:text-black">
+      <p className="text-3xl print:font-bold print:text-green-dark">Skills</p>
       <div className="flex flex-col md:flex-row mt-5 md:mt-9">
         {
           skillsList.map((type, typeIndex) => {
@@ -62,7 +62,7 @@ const Skills = () => {
               <div key={`type_${typeIndex}`} className={`basis-1/${skillsList.length - 1} md:pr-3 mb-5 md:mb-0`}>
                 <p className="text-xl">{ type.title }</p>
                 <hr className="mt-2 mb-2" />
-                <ul className="ml-2 list-inside list-disc leading-6 md:leading-8 text-lg">
+                <ul className="ml-2 list-inside list-disc leading-6 md:leading-8 print:leading-5 text-lg print:text-md">
                 {
                   type.skills.map((skill, skillIndex) => {
                     return (
