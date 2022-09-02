@@ -1,4 +1,8 @@
-import { GiPositionMarker } from "react-icons/gi";
+import {
+  VscMail,
+  VscLocation,
+  VscGithubInverted,
+} from "react-icons/vsc";
 
 import Avatar from '../../Assets/images/avatar.png';
 
@@ -15,11 +19,17 @@ const Profile = () => {
           <img className="w-32 h-32 rounded-full" src={Avatar} alt="" width="384" height="512" />
           <p className="text-3xl">Aaron Lin</p>
           <p className="text-xl leading-8">Software Engineer</p>
-          <p className="text-xl leading-8"><GiPositionMarker className="inline" />Kaohsiung City, TW</p>
+          <p className="text-xl leading-8">Kaohsiung City, TW</p>
         </div>
-        <div className="basis-2/3">
-          <p className="text-lg leading-8">Research new skill | Improve job programme | Face problems and solve it</p>
-          <p className="text-lg leading-8">jaeyoungsam0427@gmail.com</p>
+        <div className="basis-2/3 mt-7 md:mt-0">
+          <p className="text-lg leading-8">My strength is responsibility and learning.</p>
+          <p className="text-lg leading-8">Be a softwar engineer should be study new knowledge for skills likes curiosity of childs.</p>
+          <p className="text-lg leading-8">To face challenges and finish it on schedule.</p>
+          <p className="text-lg leading-8">To think how to do it better not do it done.</p>
+          <div className="mt-2 mb-2">
+            <a href="https://github.com/JaeyoLin" target="_blank"><VscGithubInverted /></a>
+          </div>
+          <p className="text-lg leading-8"><VscMail className="inline" /> jaeyoungsam0427@gmail.com</p>
         </div>
       </div>
     </div>

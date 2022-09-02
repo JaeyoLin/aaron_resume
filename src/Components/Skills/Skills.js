@@ -57,16 +57,16 @@ const Skills = () => {
       <p className="text-3xl">Skills</p>
       <div className="flex flex-col md:flex-row mt-5 md:mt-9">
         {
-          skillsList.map((type) => {
+          skillsList.map((type, typeIndex) => {
             return (
-              <div className={`basis-1/${skillsList.length - 1} md:pr-3 mb-5 md:mb-0`}>
+              <div key={`type_${typeIndex}`} className={`basis-1/${skillsList.length - 1} md:pr-3 mb-5 md:mb-0`}>
                 <p className="text-xl">{ type.title }</p>
                 <hr className="mt-2 mb-2" />
                 <ul className="ml-2 list-inside list-disc leading-6 md:leading-8 text-lg">
                 {
-                  type.skills.map((skill) => {
+                  type.skills.map((skill, skillIndex) => {
                     return (
-                      <li>
+                      <li key={`type_${skillIndex}`}>
                         { skill }
                       </li>
                     )
