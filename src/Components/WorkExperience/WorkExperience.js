@@ -9,11 +9,11 @@ import DDSC_LOGO from '../../Assets/images/DDSC_logo.png';
  */
 const WorkExperience = () => {
   return (
-    <div className="w-full p-6 md:p-12">
+    <div className="w-full p-6 md:p-12 print:p-3">
       <p className="font-bold text-3xl text-green-dark mb-4 print:mb-0">WorkExperience</p>
       <div>
         <div className="flex items-center flex-col-reverse md:flex-row print:flex-row">
-          <div className="basis-2/3 text-2xl md:text-3xl leading-8">Bank of Kaohsiung</div>
+          <div className="basis-2/3 text-2xl md:text-3xl leading-8 print:leading-4">Bank of Kaohsiung</div>
           <div className="basis-1/3 grid justify-items-start md:justify-items-end print:justify-items-end"><img src={BOK_LOGO} className="w-24 h-24" /></div>
         </div>
         <div className="text-2xl text-yellow-500 grid justify-items-center md:justify-items-start print:justify-items-start leading-8">IT Specialist</div>
@@ -34,11 +34,17 @@ const WorkExperience = () => {
         <ul className="mt-5 ml-2 list-outside md:list-inside print:list-inside list-disc leading-6 md:leading-8 text-lg">
           <li>Full stack engineer and DevOps.</li>
           <li>Assisted tasks with project members and code review.</li>
-          <li>Hard skills training for employees.</li>
+          <li>
+            Hard skills training for employees.
+            <ul className='ml-7 list-outside md:list-inside print:list-inside list-disc leading-6 md:leading-8'>
+              <li>Front-end</li>
+              <li>DevOps</li>
+            </ul>
+          </li>
           <li>Researched and recommended solutions for action items handed down by upper management.</li>
         </ul>
       </div>
-      <div className="mt-8 print:pt-5">
+      <div className="mt-8 print:pt-8">
         <div className="flex items-center flex-col-reverse md:flex-row print:flex-row">
           <div className="basis-2/3 text-2xl md:text-3xl leading-8">Dimerco Data System Corporation</div>
           <div className="basis-1/3 grid justify-items-start md:justify-items-end print:justify-items-end"><img src={DDSC_LOGO} className="h-20" /></div>
@@ -46,7 +52,13 @@ const WorkExperience = () => {
         <div className="text-2xl text-yellow-500 grid justify-items-center md:justify-items-start print:justify-items-start leading-8">Web Developer</div>
         <div className="text-xl text-zinc-400 grid justify-items-center md:justify-items-start print:justify-items-start leading-8">Feb 2012 – Feb 2015</div>
         <ul className="mt-5 ml-2 list-outside md:list-inside print:list-inside list-disc leading-6 md:leading-8 text-lg">
-          <li>Project development for EVA Air.</li>
+          <li>
+            Project development
+            <ul className='ml-7 list-outside md:list-inside print:list-inside list-disc leading-6 md:leading-8'>
+              <li>EVA Air: Ticket booking, Sky shop.</li>
+              <li>新臺灣久保田: Internal system.</li>
+            </ul>
+          </li>
           <li>System maintenance.</li>
         </ul>
       </div>
