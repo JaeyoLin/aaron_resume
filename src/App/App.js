@@ -1,4 +1,9 @@
-import { Resume } from '../Components';
+import { Routes, Route, Link } from "react-router-dom";
+
+import { 
+  Resume,
+  Portfolio,
+} from '@Pages';
 
 /**
  * App
@@ -8,7 +13,10 @@ import { Resume } from '../Components';
 const App = () => {
   return (
     <div className='bg-gray-100 min-h-screen'>
-      <Resume />
+      <Routes>
+        <Route path="/" element={<Resume />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+      </Routes>
     </div>
   );
 }
