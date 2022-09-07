@@ -22,6 +22,9 @@ import PORJECT_MOHW_2 from '@Assets/images/portfolio/project_mohw_2.jpg';
 import PORJECT_MOHW_3 from '@Assets/images/portfolio/project_mohw_3.jpg';
 import PORJECT_MOHW_4 from '@Assets/images/portfolio/project_mohw_4.jpg';
 
+import EVAAIR_TICKET_BOOKING from '@Assets/images/portfolio/evaair_ticket_booking.jpg';
+import EVAAIR_SKY_SHOP from '@Assets/images/portfolio/evaair_sky_shop.jpg';
+
 /**
  * PortfolioList
  * 
@@ -67,14 +70,28 @@ const PortfolioList = () => {
         <div className='text-xl text-yellow-500 mt-5'>Taipei COOK</div>
         <img className='w-full md:w-11/12 print:w-10/12 border-solid border-2 border-gray-200' src={PORJECT_COOK} alt='' />
         <div className='text-xl text-yellow-500 mt-5'>Smart Vending Machine</div>
-        <img className='w-full md:w-11/12 print:w-11/12 border-solid border-2 border-gray-200' src={PORJECT_SVM_1} alt='' />
-        <img className='w-full md:w-11/12 print:w-11/12 border-solid border-2 border-gray-200' src={PORJECT_SVM_2} alt='' />
-        <img className='w-full md:w-11/12 print:w-11/12 border-solid border-2 border-gray-200' src={PORJECT_SVM_3} alt='' />
+        <img className='w-full md:w-10/12 print:w-12/12 border-solid border-2 border-gray-200' src={PORJECT_SVM_1} alt='' />
+        <img className='w-full md:w-10/12 print:w-12/12 print:mt-96 border-solid border-2 border-gray-200' src={PORJECT_SVM_2} alt='' />
+        <img className='w-full md:w-10/12 print:w-12/12 print:mt-80 border-solid border-2 border-gray-200' src={PORJECT_SVM_3} alt='' />
+
+        <div className='text-xl text-yellow-500 mt-5 print:mt-60'>HIS System</div>
+        <img className='w-full md:w-11/12 print:w-11/12 border-solid border-2 border-gray-200' src={PORJECT_HIS_1} alt='' />
+        <img className='w-full md:w-11/12 print:w-11/12 border-solid border-2 border-gray-200 mt-5' src={PORJECT_HIS_2} alt='' />
+
+        <div className='text-xl text-yellow-500 mt-5 print:mt-14'>HIS System</div>
+        <img className='w-full md:w-11/12 print:w-12/12 border-solid border-2 border-gray-200' src={PORJECT_MOHW_1} alt='' />
+        <img className='w-full md:w-11/12 print:w-12/12 border-solid border-2 border-gray-200 mt-10' src={PORJECT_MOHW_2} alt='' />
+        <img className='w-full md:w-11/12 print:w-12/12 border-solid border-2 border-gray-200 print:mt-60' src={PORJECT_MOHW_3} alt='' />
+        <img className='w-full md:w-11/12 print:w-12/12 border-solid border-2 border-gray-200 mt-10' src={PORJECT_MOHW_4} alt='' />
       </div>
 
-      <div className='basis-2/3 text-2xl leading-8 text-green-dark'>Dimerco Data System Corporation</div>
+      <div className='basis-2/3 text-2xl leading-8 text-green-dark print:mt-60'>Dimerco Data System Corporation</div>
       <div className='grid justify-items-center'>
+        <div className='text-xl text-yellow-500 mt-5'>EVA Air Ticket Booking</div>
+        <img className='w-full md:w-11/12 print:w-12/12 border-solid border-2 border-gray-200' src={EVAAIR_TICKET_BOOKING} alt='' />
 
+        <div className='text-xl text-yellow-500 mt-5 print:mt-80'>EVA Air Sky Shop</div>
+        <img className='w-full md:w-11/12 print:w-12/12 border-solid border-2 border-gray-200' src={EVAAIR_SKY_SHOP} alt='' />
       </div>
     </div>
   );
