@@ -1,16 +1,38 @@
 {
   "files": {
-    "main.css": "/aaron_resume/static/css/main.7437757c.css",
-    "main.js": "/aaron_resume/static/js/main.6adbec48.js",
+    "main.css": "/aaron_resume/static/css/main.453d231c.css",
+    "main.js": "/aaron_resume/static/js/main.77fd1884.js",
     "static/media/avatar.jpeg": "/aaron_resume/static/media/avatar.8938259aecb902ad475e.jpeg",
+    "static/media/project_cook.jpg": "/aaron_resume/static/media/project_cook.d13b072eb42178c3166a.jpg",
+    "static/media/bok_1.jpg": "/aaron_resume/static/media/bok_1.50d99731dcbde30632a5.jpg",
+    "static/media/project_svm_1.jpg": "/aaron_resume/static/media/project_svm_1.86a046890f9e32b6bbbc.jpg",
+    "static/media/project_office_1.jpg": "/aaron_resume/static/media/project_office_1.da91e804858fb15814d1.jpg",
+    "static/media/bok_3.jpg": "/aaron_resume/static/media/bok_3.6a2a5e51c43899bb27a5.jpg",
+    "static/media/project_svm_3.jpg": "/aaron_resume/static/media/project_svm_3.0c42b917e81157243a7b.jpg",
+    "static/media/project_svm_2.jpg": "/aaron_resume/static/media/project_svm_2.8127e25df2f6250a6431.jpg",
+    "static/media/project_mohw_3.jpg": "/aaron_resume/static/media/project_mohw_3.76e234b79616974a37b0.jpg",
+    "static/media/project_security.jpg": "/aaron_resume/static/media/project_security.677009509b65b340f4aa.jpg",
+    "static/media/project_mohw_1.jpg": "/aaron_resume/static/media/project_mohw_1.9931e50fd028e2850b23.jpg",
+    "static/media/project_coaching_1.jpg": "/aaron_resume/static/media/project_coaching_1.2ef0a5693909358fa0e5.jpg",
+    "static/media/bok_5.jpg": "/aaron_resume/static/media/bok_5.d5b295e90e27ad55e05f.jpg",
+    "static/media/project_mohw_4.jpg": "/aaron_resume/static/media/project_mohw_4.f82c98173e1a2562b1e6.jpg",
+    "static/media/project_his_2.jpg": "/aaron_resume/static/media/project_his_2.1d96a7d158de6fa5dd37.jpg",
+    "static/media/project_mohw_2.jpg": "/aaron_resume/static/media/project_mohw_2.701476222c7986a469b9.jpg",
+    "static/media/project_office_4.jpg": "/aaron_resume/static/media/project_office_4.8158f8288e6574978f7e.jpg",
+    "static/media/bok_4.jpg": "/aaron_resume/static/media/bok_4.8751e008090867676e82.jpg",
+    "static/media/bok_2.jpg": "/aaron_resume/static/media/bok_2.d8229d601423bf710d84.jpg",
+    "static/media/project_his_1.jpg": "/aaron_resume/static/media/project_his_1.88e8389b403314dd2cb2.jpg",
+    "static/media/project_office_2.jpg": "/aaron_resume/static/media/project_office_2.9ddd5f0b1de4d80f0fed.jpg",
+    "static/media/project_coaching_2.jpg": "/aaron_resume/static/media/project_coaching_2.496bbe52fe8bbf8dbdc2.jpg",
+    "static/media/project_office_3.jpg": "/aaron_resume/static/media/project_office_3.7638ddae253450bd8190.jpg",
     "static/media/DDSC_logo.png": "/aaron_resume/static/media/DDSC_logo.41b311651696d27ada36.png",
     "static/media/BOK_logo.svg": "/aaron_resume/static/media/BOK_logo.2d206f24bac8409fbd22bb0bdd9f8278.svg",
     "index.html": "/aaron_resume/index.html",
-    "main.7437757c.css.map": "/aaron_resume/static/css/main.7437757c.css.map",
-    "main.6adbec48.js.map": "/aaron_resume/static/js/main.6adbec48.js.map"
+    "main.453d231c.css.map": "/aaron_resume/static/css/main.453d231c.css.map",
+    "main.77fd1884.js.map": "/aaron_resume/static/js/main.77fd1884.js.map"
   },
   "entrypoints": [
-    "static/css/main.7437757c.css",
-    "static/js/main.6adbec48.js"
+    "static/css/main.453d231c.css",
+    "static/js/main.77fd1884.js"
   ]
 }
