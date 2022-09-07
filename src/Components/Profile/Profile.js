@@ -3,7 +3,7 @@ import {
   VscGithubInverted,
 } from "react-icons/vsc";
 
-import Avatar from '../../Assets/images/avatar.jpeg';
+import Avatar from '@Assets/images/avatar.jpeg';
 
 /**
  * Profile
@@ -15,7 +15,7 @@ const Profile = () => {
     <div className="w-full p-6 md:p-12 print:p-3 bg-green-dark text-white">
       <div className="flex flex-col md:flex-row print:flex-row">
         <div className="basis-1/3">
-          <img className="w-32 h-32 rounded-full" src={Avatar} alt="" width="384" height="512" />
+          <img className="w-32 h-32 rounded-full animate-waving-hand" src={Avatar} alt="" width="384" height="512" />
           <p className="text-3xl">Aaron Lin</p>
           <p className="text-xl leading-8">Software Engineer</p>
           <p className="text-xl leading-8">Kaohsiung City, TW</p>
