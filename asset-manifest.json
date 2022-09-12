@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/aaron_resume/static/css/main.c74e72fc.css",
-    "main.js": "/aaron_resume/static/js/main.d2c34d24.js",
-    "static/media/avatar.jpeg": "/aaron_resume/static/media/avatar.8938259aecb902ad475e.jpeg",
+    "main.css": "/aaron_resume/static/css/main.fcf1aad1.css",
+    "main.js": "/aaron_resume/static/js/main.264a81b0.js",
+    "static/media/avatar.jpeg": "/aaron_resume/static/media/avatar.3b3eb7aaafca9db0083f.jpeg",
     "static/media/evaair_sky_shop.jpg": "/aaron_resume/static/media/evaair_sky_shop.b509c72bf4714b21d3cc.jpg",
     "static/media/project_cook.jpg": "/aaron_resume/static/media/project_cook.d13b072eb42178c3166a.jpg",
     "static/media/bok_1.jpg": "/aaron_resume/static/media/bok_1.50d99731dcbde30632a5.jpg",
@@ -30,11 +30,11 @@
     "static/media/DDSC_logo.png": "/aaron_resume/static/media/DDSC_logo.41b311651696d27ada36.png",
     "static/media/BOK_logo.svg": "/aaron_resume/static/media/BOK_logo.2d206f24bac8409fbd22bb0bdd9f8278.svg",
     "index.html": "/aaron_resume/index.html",
-    "main.c74e72fc.css.map": "/aaron_resume/static/css/main.c74e72fc.css.map",
-    "main.d2c34d24.js.map": "/aaron_resume/static/js/main.d2c34d24.js.map"
+    "main.fcf1aad1.css.map": "/aaron_resume/static/css/main.fcf1aad1.css.map",
+    "main.264a81b0.js.map": "/aaron_resume/static/js/main.264a81b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c74e72fc.css",
-    "static/js/main.d2c34d24.js"
+    "static/css/main.fcf1aad1.css",
+    "static/js/main.264a81b0.js"
   ]
 }
