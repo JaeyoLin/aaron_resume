@@ -14,11 +14,11 @@ const highlights = [
 
 const Profile = () => {
   return (
-    <section className="overflow-hidden rounded-[32px] border border-black/5 bg-white/90 p-6 shadow-[0_20px_60px_rgba(18,32,27,0.08)] backdrop-blur print:rounded-none print:border-0 print:bg-white print:p-0 print:shadow-none md:p-8">
-      <div className="grid gap-8 lg:grid-cols-[220px,1fr] lg:items-start">
-        <div className="space-y-4">
+    <section className="overflow-hidden rounded-[36px] border border-white/75 bg-[linear-gradient(180deg,rgba(255,255,255,0.96),rgba(255,255,255,0.86))] p-6 shadow-[0_24px_70px_rgba(18,32,27,0.08)] backdrop-blur-xl print:rounded-none print:border-0 print:bg-white print:p-0 print:shadow-none md:p-8">
+      <div className="grid gap-8 lg:grid-cols-[240px,1fr] lg:items-start">
+        <div className="space-y-5">
           <img
-            className="h-40 w-40 rounded-[28px] object-cover shadow-lg ring-1 ring-black/5"
+            className="h-40 w-40 rounded-[28px] object-cover shadow-[0_18px_40px_rgba(18,32,27,0.14)] ring-1 ring-black/5"
             src={Avatar}
             alt="Aaron Lin"
             width="384"
@@ -31,7 +31,7 @@ const Profile = () => {
             <h1 className="mt-2 font-display text-4xl font-bold tracking-tight text-slate-900">
               Aaron Lin
             </h1>
-            <p className="mt-2 text-lg font-semibold text-green-dark">
+            <p className="mt-2 text-lg font-semibold text-slate-700">
               Senior Software Engineer
             </p>
             <p className="mt-1 text-sm text-slate-500">
@@ -45,14 +45,14 @@ const Profile = () => {
             {highlights.map((highlight) => (
               <span
                 key={highlight}
-                className="rounded-full border border-green-dark/15 bg-green-dark/8 px-3 py-1 text-sm font-medium text-green-dark"
+                className="rounded-full border border-black/5 bg-slate-50 px-3 py-1 text-sm font-medium text-slate-700 shadow-sm"
               >
                 {highlight}
               </span>
             ))}
           </div>
 
-          <div className="max-w-3xl space-y-4 text-lg leading-8 text-slate-700">
+          <div className="max-w-3xl space-y-4 text-[1.05rem] leading-8 text-slate-700">
             <p>
               Senior software engineer focused on enterprise system development, maintenance, and delivery.
             </p>
@@ -72,14 +72,14 @@ const Profile = () => {
               href="https://github.com/JaeyoLin"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-black/5 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              className="inline-flex items-center gap-2 rounded-full border border-black/5 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm transition hover:-translate-y-0.5 hover:border-slate-200 hover:shadow-md"
             >
               <VscGithubInverted />
               GitHub
             </a>
             <a
               href="mailto:jaeyoungsam0427@gmail.com"
-              className="inline-flex items-center gap-2 rounded-full border border-black/5 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              className="inline-flex items-center gap-2 rounded-full border border-black/5 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm transition hover:-translate-y-0.5 hover:border-slate-200 hover:shadow-md"
             >
               <VscMail />
               Email

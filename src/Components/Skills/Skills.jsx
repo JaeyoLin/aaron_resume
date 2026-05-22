@@ -59,7 +59,7 @@ const skillGroups = [
 
 const Skills = () => {
   return (
-    <section className="rounded-[32px] border border-black/5 bg-slate-950 px-6 py-8 text-white shadow-[0_24px_70px_rgba(18,32,27,0.18)] print:rounded-none print:border-0 print:bg-white print:px-0 print:py-0 print:text-slate-900 print:shadow-none md:px-8">
+    <section className="rounded-[32px] border border-slate-900/90 bg-slate-950 px-6 py-8 text-white shadow-[0_24px_70px_rgba(18,32,27,0.18)] print:rounded-none print:border-0 print:bg-white print:px-0 print:py-0 print:text-slate-900 print:shadow-none md:px-8">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-white/55 print:text-slate-400">

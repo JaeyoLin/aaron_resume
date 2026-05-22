@@ -2,9 +2,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-green-dark: #647b71;
-  --color-ink: #12201b;
-  --color-paper: #f6f2ea;
+  --color-green-dark: #5f7468;
+  --color-ink: #0f1720;
+  --color-paper: #f4eee5;
   --font-sans: "Source Sans 3", sans-serif;
   --font-display: "Space Grotesk", sans-serif;
 }
@@ -18,8 +18,9 @@
 html {
   scroll-behavior: smooth;
   background:
-    radial-gradient(circle at top left, rgba(100, 123, 113, 0.18), transparent 30%),
-    radial-gradient(circle at top right, rgba(223, 179, 107, 0.14), transparent 26%),
+    radial-gradient(circle at top left, rgba(95, 116, 104, 0.16), transparent 28%),
+    radial-gradient(circle at top right, rgba(190, 153, 92, 0.15), transparent 24%),
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.32), transparent 55%),
     var(--color-paper);
 }
 
@@ -31,6 +32,17 @@ body {
   background: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.12), transparent 24%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.26), transparent 28%);
+  mix-blend-mode: soft-light;
 }
 
 code {

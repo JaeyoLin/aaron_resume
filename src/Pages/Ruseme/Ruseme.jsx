@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-import { Link } from 'react-router-dom';
 import { useReactToPrint } from 'react-to-print';
 import { MdOutlinePrint } from 'react-icons/md';
 
@@ -19,16 +18,20 @@ const Ruseme = () => {
 
   return (
     <div className="mx-auto min-h-screen max-w-6xl px-4 py-4 sm:px-6 lg:px-8">
-      <header className="sticky top-3 z-20 mb-6 rounded-full border border-white/70 bg-white/80 px-4 py-3 shadow-[0_12px_40px_rgba(18,32,27,0.08)] backdrop-blur-xl print:hidden">
+      <header className="sticky top-3 z-20 mb-6 rounded-full border border-white/75 bg-white/82 px-4 py-3 shadow-[0_16px_50px_rgba(18,32,27,0.10)] backdrop-blur-2xl print:hidden">
         <div className="flex items-center justify-between gap-4">
-          <nav className="flex items-center gap-4 text-sm font-semibold text-slate-700">
-            <Link to="/" className="transition hover:text-green-dark">Resume</Link>
-            <Link to="/portfolio" className="transition hover:text-green-dark">Portfolio</Link>
+          <nav className="flex items-center gap-3 text-sm font-semibold text-slate-700">
+            <span className="rounded-full bg-slate-900 px-3 py-1 text-white shadow-sm">
+              Resume
+            </span>
+            <span className="hidden text-slate-400 sm:inline">
+              Senior Software Engineer
+            </span>
           </nav>
           <button
             type="button"
             onClick={handlePrint}
-            className="inline-flex items-center gap-2 rounded-full bg-green-dark px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+            className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(18,32,27,0.18)] transition hover:-translate-y-0.5 hover:bg-slate-800 hover:shadow-[0_16px_34px_rgba(18,32,27,0.22)]"
           >
             <MdOutlinePrint />
             Print

@@ -1,12 +1,12 @@
 const Education = () => {
   return (
-    <section className="rounded-[28px] border border-black/5 bg-white/85 p-6 shadow-sm print:rounded-none print:border-0 print:bg-white print:p-0 print:shadow-none md:p-8">
+    <section className="rounded-[28px] border border-white/75 bg-white/88 p-6 shadow-[0_12px_36px_rgba(18,32,27,0.05)] print:rounded-none print:border-0 print:bg-white print:p-0 print:shadow-none md:p-8">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-400">
             Education
           </p>
-          <div className="mt-3 inline-flex rounded-full bg-green-dark/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] text-green-dark">
+          <div className="mt-3 inline-flex rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] text-white shadow-sm">
             2004 - 2008
           </div>
           <h2 className="mt-4 font-display text-2xl font-bold text-slate-900">

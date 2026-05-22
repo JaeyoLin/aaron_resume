@@ -62,7 +62,7 @@ const experiences = [
 
 const WorkExperience = () => {
   return (
-    <section className="rounded-[32px] border border-black/5 bg-white/90 p-6 shadow-[0_20px_60px_rgba(18,32,27,0.06)] print:rounded-none print:border-0 print:bg-white print:p-0 print:shadow-none md:p-8">
+    <section className="rounded-[32px] border border-white/75 bg-white/90 p-6 shadow-[0_20px_60px_rgba(18,32,27,0.06)] print:rounded-none print:border-0 print:bg-white print:p-0 print:shadow-none md:p-8">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-400">
@@ -81,9 +81,9 @@ const WorkExperience = () => {
         {experiences.map((experience) => (
           <article
             key={`${experience.company}-${experience.duration}`}
-            className="relative overflow-hidden rounded-[28px] border border-black/5 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md print:break-inside-avoid print:rounded-none print:border-0 print:p-0 print:shadow-none"
+            className="relative overflow-hidden rounded-[28px] border border-black/5 bg-[linear-gradient(180deg,rgba(255,255,255,1),rgba(250,250,248,0.94))] p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md print:break-inside-avoid print:rounded-none print:border-0 print:p-0 print:shadow-none"
           >
-            <div className="absolute left-6 top-6 h-[calc(100%-3rem)] w-px bg-gradient-to-b from-green-dark/30 via-green-dark/10 to-transparent" />
+            <div className="absolute left-6 top-6 h-[calc(100%-3rem)] w-px bg-gradient-to-b from-slate-300 via-slate-200 to-transparent" />
             <div className="relative flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
               <div className="space-y-4">
                 <div className="flex flex-wrap items-center gap-3">
@@ -96,7 +96,7 @@ const WorkExperience = () => {
                     <h3 className="font-display text-2xl font-bold text-slate-900">
                       {experience.company}
                     </h3>
-                    <p className="text-lg font-semibold text-green-dark">
+                    <p className="text-lg font-semibold text-slate-700">
                       {experience.role}
                     </p>
                   </div>
@@ -105,7 +105,7 @@ const WorkExperience = () => {
                   {experience.summary}
                 </p>
               </div>
-              <span className="inline-flex shrink-0 rounded-full bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-600">
+              <span className="inline-flex shrink-0 rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm">
                 {experience.duration}
               </span>
             </div>
