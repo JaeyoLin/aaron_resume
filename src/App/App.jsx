@@ -1,24 +1,19 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 
-import { 
+import {
   Resume,
   Portfolio,
 } from '@Pages';
 
-/**
- * App
- * 
- * @returns 
- */
 const App = () => {
   return (
-    <div className='bg-gray-100 min-h-screen'>
+    <div className="min-h-screen text-ink">
       <Routes>
         <Route path="/" element={<Resume />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </div>
   );
-}
+};
 
 export default App;
